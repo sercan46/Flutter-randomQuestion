@@ -1,7 +1,3 @@
-// <copyright file="navigation_service.dart" company="AcerPro Bilişim Teknolojileri A.Ş.">
-//     Copyright (c)
-// </copyright>
-
 import 'package:flutter/cupertino.dart';
 import 'package:random_question/core/init/navigation/INavigationService.dart';
 

@@ -1,7 +1,3 @@
-// <copyright file="provider_list.dart" company="AcerPro Bilişim Teknolojileri A.Ş.">
-//     Copyright (c)
-// </copyright>
-
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
 import 'package:random_question/core/init/navigation/navigation_service.dart';
