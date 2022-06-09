@@ -1,6 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
+import 'package:random_question/add_favorite.dart';
 import 'package:random_question/core/constants/app/app_constants.dart';
 import 'package:random_question/core/constants/navigation/navigation_constants.dart';
 import 'package:random_question/core/init/lang/language_manager.dart';
@@ -9,13 +11,19 @@ import 'package:random_question/core/init/navigation/navigation_service.dart';
 import 'package:random_question/core/init/notifier/provider_list.dart';
 import 'core/init/theme/custom_theme.dart';
 
+late Box box;
 Future<void> _init() async {
   WidgetsFlutterBinding.ensureInitialized();
   await EasyLocalization.ensureInitialized();
+  await Hive.initFlutter();
+
+  Hive.registerAdapter(AddFavoriteAdapter());
+  box = await Hive.openBox('box');
 }
 
 Future<void> main() async {
   await _init();
+
   runApp(
     MultiProvider(
       providers: [...ApplicationProvider.instance.dependItems],

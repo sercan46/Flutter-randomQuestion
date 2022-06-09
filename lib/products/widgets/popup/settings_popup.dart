@@ -17,7 +17,7 @@ class SettingPopup {
               child: const Text(
                 'Kapat',
                 style: TextStyle(
-                  color: Colors.blue,
+                  color: Colors.white,
                 ),
               ),
               onPressed: () {

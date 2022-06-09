@@ -1,5 +1,47 @@
 {
-    "login":{
-        "login":"Giriş"
+    "login": {
+        "login": "Giriş"
+    },
+    "random_question": {
+        "add_new_question": "Yeni Soru",
+        "chosen_for_you": "Sizin İçin Seçtiğimiz Soru",
+        "info": "Soruyu Favorinize Eklemek İçin Aşağıdaki + Butonuna Tıklayınız.",
+        "add_favorite":"Favoriye Ekle"
+    },
+    "main_page": {
+        "header": "Anasayfa",
+        "add_favorite": "Favori listenize eklendi."
+    },
+    "add_question": {
+        "add_new_question": "Soru Giriniz...",
+        "success_question": "Soru Başarıyla Gönderilmiştir.",
+        "send_new_question": "Yeni Soru Gönder"
+    },
+    "favorite_list": {
+        "header": "Favori Listem",
+        "delete_success": "Bir öğe silindi",
+        "emty_favorite":"Favori Listeniz Boş"
+    },
+    "settings": {
+        "header": "Ayarlar",
+        "change_language": "Dil Değiştir",
+        "show_favorite_list": "Favori Sorularımı Görüntüle",
+        "contact": "Uygulama Hakkında"
+    },
+    "bottom_menu": {
+        "random_question": "Rastgele Soru",
+        "add_question": "Soru Gönder"
+    },
+    "languages": {
+        "turkish": "Türkçe",
+        "english": "İngilizce",
+        "information": "Dil değişikliğinizin tamamlanması için uygulamayı yeniden başlatınız."
+    },
+    "information":{
+        "information_detail":"Uygulama içerisinde rastgele İngilizce sorular üreterek İngilizceniz gelişimine katkıda bulunabilirsiniz.Ayrıca üretilen rastgele sorularda eğer beğendiğiniz sorular olursa bu soruları favori listenize ekleyebilirsiniz. Ayrıca bizlere kendi oluşturduğunuz soruları göndererek rastgele soru havuzumu zenginleştirmemize yardımcı olabilirsiniz."
+    },
+    "error_message": {
+        "request_field": "Bu alan zorunludur!",
+        "min5Length": "En az 5 karakter giriniz!"
     }
 }

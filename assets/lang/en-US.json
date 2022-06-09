@@ -1,5 +1,47 @@
 {
-    "login":{
-        "login":"Login"
+    "login": {
+        "login": "Login"
+    },
+    "random_question": {
+        "add_new_question": "New Question",
+        "chosen_for_you": "The Question We Have Chosen For You",
+        "info": "Click the + button below to add the question to your favourite.",
+        "add_favorite":"Add Favorite"
+    },
+    "main_page": {
+        "header": "Main Page",
+        "add_favorite": "Added to your favorite list."
+    },
+    "add_question": {
+        "add_new_question": "Enter Question...",
+        "success_question": "Question Sent Successfully.",
+        "send_new_question": "Submit New Question"
+    },
+    "favorite_list": {
+        "header": "My Favorite List",
+        "delete_success": "An item has been deleted",
+        "emty_favorite":"Your Favorite List is Empty"
+    },
+    "settings": {
+        "header": "Settings",
+        "change_language": "Change Language",
+        "show_favorite_list": "View My Favorite Questions",
+        "contact": "About the App"
+    },
+    "bottom_menu": {
+        "random_question": "Random Question",
+        "add_question": "Submit Question"
+    },
+    "languages": {
+        "turkish": "Turkish",
+        "english": "English",
+        "information": "Restart the application to complete your language change."
+    },
+    "information": {
+        "information_detail": "You can contribute to the development of your English by generating random English questions in the application. Also, if you like the random questions produced, you can add these questions to your favorite list. You can also help us enrich my pool of random questions by sending us the questions you have created."
+    },
+    "error_message": {
+        "request_field": "This field is required!",
+        "min5Length": "Please enter at least 5 characters!"
     }
 }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:random_question/views/random_question/view-model/random_question_view_model.dart';
+import 'package:random_question/views/main_page/view-model/main_page_view_model.dart';
 import '../../../core/extension/helpers.dart';
 
 class CustomButtomNavigationBar extends StatefulWidget {
@@ -16,13 +16,14 @@ class _CustomButtomNavigationBarState extends State<CustomButtomNavigationBar> {
   int currentIndex = 0;
   @override
   Widget build(BuildContext context) {
-    return Consumer<RandomQuestionViewModel>(
+    return Consumer<MainPageViewModel>(
       builder: (context, value, child) {
         return BottomNavigationBar(
           items: _list,
           currentIndex: value.currentIndex,
           onTap: (int index) {
-            Provider.of<RandomQuestionViewModel>(context, listen: false)
+            ScaffoldMessenger.of(context).hideCurrentSnackBar();
+            Provider.of<MainPageViewModel>(context, listen: false)
                 .currentIndex = index;
           },
         );

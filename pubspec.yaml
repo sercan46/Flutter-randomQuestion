@@ -16,20 +16,35 @@ dependencies:
   easy_localization: ^3.0.0
   dio: ^4.0.6
   provider: ^6.0.2
-  hive: ^2.1.0
+  hive: ^2.2.1
   auto_size_text: ^3.0.0
   form_builder_validators: ^8.1.0
   syncfusion_flutter_pdfviewer: ^20.1.48-beta.1
-  
+  hive_flutter: ^1.1.0
+  restart_app: ^1.1.0
+  flutter_native_splash: ^2.1.6
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^1.0.0
+  hive_generator: ^1.1.3
+  build_runner: ^2.1.11
+  flutter_launcher_icons: "^0.9.2"
+  change_app_package_name: ^1.1.0
 
 flutter:
 
   uses-material-design: true
   assets:
+    - assets/icon/
     - assets/lang/
-    - assets/images/
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter_native_splash:
+  background_image: "assets/images/screen.png"

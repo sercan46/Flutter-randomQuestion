@@ -10,4 +10,10 @@ final ThemeData customTheme = ThemeData(
   floatingActionButtonTheme: FloatingActionButtonThemeData(
     backgroundColor: Colors.purple[700],
   ),
+  iconTheme: IconThemeData(
+    color: Colors.purple[700],
+  ),
+  snackBarTheme: SnackBarThemeData(
+    backgroundColor: Colors.purple[700],
+  ),
 );
