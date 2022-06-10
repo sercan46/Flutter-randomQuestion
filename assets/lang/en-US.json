@@ -5,7 +5,7 @@
     "random_question": {
         "add_new_question": "New Question",
         "chosen_for_you": "The Question We Have Chosen For You",
-        "info": "Click the + button below to add the question to your favourite.",
+        "info": "Click the ♥ button below to add the question to your favourite.",
         "add_favorite":"Add Favorite"
     },
     "main_page": {
